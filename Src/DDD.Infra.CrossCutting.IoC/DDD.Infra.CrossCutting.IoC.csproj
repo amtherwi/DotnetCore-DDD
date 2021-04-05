@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>DDD.Infra.CrossCutting.IoC</RootNamespace>
+    <AssemblyName>DDD.Infra.CrossCutting.IoC</AssemblyName>
+    <AnalysisLevel>5</AnalysisLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.Application\DDD.Application.csproj" />
+    <ProjectReference Include="..\DDD.Domain\DDD.Domain.csproj" />
+    <ProjectReference Include="..\DDD.Infra.CrossCutting.Identity\DDD.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\DDD.Infra.Data\DDD.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
